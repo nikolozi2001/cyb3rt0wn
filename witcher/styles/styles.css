@@ -1,0 +1,130 @@
+header {
+    background-color: #fbff00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: 200px;
+    padding: 30px;
+}
+.navigation-holder{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav{
+    padding: 30px;
+}
+
+ul li{
+    font-size: 20px;
+    font-family: "ALK Sanet", sans-serif;
+    color: #000;
+}
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+.cover-image{
+    background-image: url("../images/cover-image.jpg");
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-content h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'DotGothic16', sans-serif;
+    margin-bottom: 50px;
+    font-weight: bold;
+   
+}
+.cover-content p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 120px;
+    font-family: 'DotGothic16', sans-serif;
+   
+}
+.cover-content {
+    text-align: center;
+}
+
+.cover-content button{
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: #006582;
+    color: white;
+    transition: 0.5s ease;
+    border: none;
+    border-radius: 10px;
+}
+.cover-content button:hover{
+    transform: scale(1.1);
+}
+
+.about-section{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    /* background-color: orange */
+}
+.about-section h2{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+}
+.about-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    line-height: 40px;
+}
+.song-paragraph{
+    margin-bottom: 30px;
+    line-height: 20px;
+    font-size: 18px;
+    color: white;
+}
+.song-lyrics{
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif; 
+    background-image: url("../images/lyrics-banner.jpg");
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lyrics-heading{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.video{
+   display: flex;
+   justify-content: center;
+   margin: 30px 0;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: white;
+    font-size: 20px;
+    font-family: 'DotGothic16', sans-serif; 
+
+}
