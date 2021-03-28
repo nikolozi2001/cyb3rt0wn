@@ -3,8 +3,8 @@
  * The template for displaying the footer.
  *
  * @package Betheme
- * @author Muffin group
- * @link https://muffingroup.com
+ * @author nika kachibaia
+ * @link 
  */
 
 // footer classes
@@ -110,21 +110,21 @@ if ($back_to_top_class == 'hide') {
 		<?php if (mfn_opts_get('footer-hide') != 1): ?>
 
 			<div class="footer_copy">
+				
 				<div class="container">
 					<div class="column one">
-
+						<img class="wlf" src="http://localhost/cyb3rt0wn/wp-content/uploads/2021/03/iliauni-logo-white.png">
 						<?php
 							if ($back_to_top_position == 'copyright') {
 								echo '<a id="back_to_top" class="footer_button" href=""><i class="icon-up-open-big"></i></a>';
 							}
 						?>
-
 						<div class="copyright">
 							<?php
 								if (mfn_opts_get('footer-copy')) {
 									echo do_shortcode(mfn_opts_get('footer-copy'));
 								} else {
-									echo '&copy; '. esc_html(date('Y')) .' '. esc_html(get_bloginfo('name')) .'. All Rights Reserved. <a target="_blank" rel="nofollow" href="https://muffingroup.com">Muffin group</a>';
+									echo '&copy; '. esc_html(date('Y')) .' '. esc_html(get_bloginfo('name')) .'. <a target="_blank" rel="nofollow" href="#"></a>';
 								}
 							?>
 						</div>
