@@ -1,1 +1,1 @@
-Tbilisi as an urban assemblage
+Tbilisi as urban assemblage
